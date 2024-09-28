@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottomsheet"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Today's Task"
+        android:textColor="#1E1A1A"
+        android:textColorLink="#000000"
+        android:textSize="25sp"
+
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp"
+
+                android:layout_weight="0.3"
+                android:background="@drawable/favbutton"
+                android:backgroundTint="#6ed7bf"
+                android:foregroundGravity="center"
+                android:foregroundTint="#FFFFFF"
+                android:importantForAccessibility="no"
+                android:padding="5dp"
+                app:srcCompat="@drawable/learn"
+                app:tint="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.6"
+                android:foregroundGravity="center"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.6"
+                    android:foregroundGravity="center"
+                    android:gravity="center"
+                    android:text="Learning"
+                    android:textColor="#100F0F"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.6"
+                    android:foregroundGravity="center"
+                    android:gravity="center"
+                    android:text="2 Completed"
+                    android:textColor="#8E8E8E"
+                    android:textColorHighlight="#7E7B7B"
+                    android:textColorHint="#656262"
+                    android:textColorLink="#454343" />
+
+            </LinearLayout>
+
+            <Button
+
+                android:id="@+id/learn"
+                android:layout_width="10dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.3"
+                android:background="#ecfffb"
+                android:foregroundGravity="center"
+                android:rotationX="2"
+                android:text="4"
+                android:textColor="#009688"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp"
+
+                android:layout_weight="0.3"
+                android:background="@drawable/favbutton"
+                android:backgroundTint="#7271CE"
+                android:foregroundGravity="center"
+                android:foregroundTint="#FFFFFF"
+                android:padding="5dp"
+                app:srcCompat="@drawable/code"
+                app:tint="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.6"
+                android:foregroundGravity="center"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.6"
+                    android:foregroundGravity="center"
+                    android:gravity="center"
+                    android:text="Coding"
+                    android:textColor="#100F0F"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.6"
+                    android:foregroundGravity="center"
+                    android:gravity="center"
+                    android:text="2 Completed"
+                    android:textColor="#8E8E8E"
+                    android:textColorHighlight="#7E7B7B"
+                    android:textColorHint="#656262"
+                    android:textColorLink="#454343"
+                    tools:ignore="DuplicateIds" />
+
+            </LinearLayout>
+
+            <Button
+
+                android:id="@+id/code"
+                android:layout_width="10dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.3"
+                android:background="#F2F0FE"
+                android:foregroundGravity="center"
+                android:rotationX="2"
+                android:text="4"
+                android:textColor="#625FBE"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:importantForAccessibility="no"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp"
+
+                android:layout_weight="0.3"
+                android:background="@drawable/favbutton"
+                android:backgroundTint="#FB6D17"
+                android:foregroundGravity="center"
+                android:foregroundTint="#FFFFFF"
+                android:padding="5dp"
+                app:srcCompat="@drawable/baseline_design_services_24"
+                app:tint="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.6"
+                android:foregroundGravity="center"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.6"
+                    android:foregroundGravity="center"
+                    android:gravity="center"
+                    android:text="Designing"
+                    android:textColor="#100F0F"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/dd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.6"
+                    android:foregroundGravity="center"
+                    android:gravity="center"
+                    android:text="2 Completed"
+                    android:textColor="#8E8E8E"
+                    android:textColorHighlight="#7E7B7B"
+                    android:textColorHint="#656262"
+                    android:textColorLink="#454343"
+                    tools:ignore="DuplicateIds" />
+
+            </LinearLayout>
+
+            <Button
+
+                android:id="@+id/design"
+                android:layout_width="10dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.3"
+                android:background="#FEF3EE"
+                android:foregroundGravity="center"
+                android:rotationX="2"
+                android:text="4"
+                android:textColor="#F4511E"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="5dp"
+
+                android:layout_weight="0.3"
+                android:background="@drawable/favbutton"
+                android:backgroundTint="#FEAC28"
+                android:foregroundGravity="center"
+                android:foregroundTint="#FFFFFF"
+                android:padding="5dp"
+                app:srcCompat="@drawable/meet"
+                app:tint="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.6"
+                android:foregroundGravity="center"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.6"
+                    android:foregroundGravity="center"
+                    android:gravity="center"
+                    android:text="Meeting"
+                    android:textColor="#100F0F"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:id="@+id/mm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.6"
+                    android:foregroundGravity="center"
+                    android:gravity="center"
+                    android:text="2 Completed"
+                    android:textColor="#8E8E8E"
+                    android:textColorHighlight="#7E7B7B"
+                    android:textColorHint="#656262"
+                    android:textColorLink="#454343"
+                    tools:ignore="DuplicateIds" />
+
+            </LinearLayout>
+
+            <Button
+
+                android:id="@+id/meet"
+                android:layout_width="10dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.3"
+                android:background="#FFF9E7"
+                android:foregroundGravity="center"
+                android:rotationX="2"
+                android:text="4"
+                android:textColor="#FF5722"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/fab"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="100dp"
+            android:background="@drawable/favbutton"
+            android:contentDescription="submit"
+            android:scaleType="centerInside"
+            android:src="@drawable/baseline_add_24"
+
+            app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView"
+
+            app:tint="#FFFFFF" />
+
+
+    </LinearLayout>
+</LinearLayout>

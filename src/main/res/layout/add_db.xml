@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:layout_marginEnd="16dp"
+    android:background="@drawable/rounded_background"
+    android:elevation="4dp"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <!-- Title -->
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="Title"
+        android:textColor="#008477"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds" />
+
+    <!-- Checkbox and Label -->
+
+    <!-- Description -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="10/12/2024"
+            android:textColor="#F26F6E70"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="10:30 AM"
+            android:textColor="#A19494"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Description goes here"
+        android:textColor="#555555"
+        android:textSize="16sp" />
+
+    <!-- Edit and Delete Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="32dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="8dp"
+            app:srcCompat="@drawable/edit"
+            app:tint="#4CAF50" />
+
+        <ImageView
+            android:id="@+id/deleteIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="8dp"
+            app:srcCompat="@drawable/delete"
+            app:tint="#F44336" />
+    </LinearLayout>
+</LinearLayout>
